@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر همسة | إتمام الطلب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loading-overlay">
+        <h2 style="color: #2ecc71; font-size: 28px; margin-bottom: 10px;">تم تجهيز طلبك بنجاح! 🎉</h2>
+        <p style="font-size: 18px; color: #555; line-height: 1.8;">
+            قمنا بنسخ تفاصيل طلبك تلقائياً لتوفير وقتك.<br>
+            جاري تحويلك الآن إلى حسابنا في تيك توك...<br><br>
+            <b style="color: #000; font-size: 20px;">الخطوة الأخيرة:</b> اضغط على <b>"رسالة"</b> ثم اختر <b>"لصق"</b> لإرسال الطلب.
+        </p>
+        <div class="spinner"></div>
+    </div>
+
+    <header>
+        <a href="index.html" class="logo">🌸 متجر همسة</a>
+        <div class="nav-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="cart.html" class="cart-icon">
+                رجوع للسلة <span class="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2 class="title-page">تأكيد الطلب</h2>
+        
+        <div class="checkout-box">
+            <form id="checkout-form">
+                <div class="form-group">
+                    <label>الاسم الكريم</label>
+                    <input type="text" id="name" required placeholder="أدخل اسمك هنا">
+                </div>
+                <div class="form-group">
+                    <label>رقم الجوال (للتواصل)</label>
+                    <input type="tel" id="phone" required placeholder="مثال: 0500000000">
+                </div>
+                <button type="submit" class="btn btn-block">تأكيد الطلب 🎵</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>جميع الحقوق محفوظة لمتجر همسة &copy; 2026</footer>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,21 +1,21 @@
 const products = [
     { 
-        id: 1, name: 'باقة التصميم الأولى', price: 50, oldPrice: 75, 
+        id: 1, name: 'باقة التصميم الأولى', price: 35, oldPrice: 75, 
         desc: 'تصميم أنيق وناعم يلبي جميع احتياجاتك. مثالي لرسائل الإهداء والمناسبات السعيدة مع إمكانية إضافة نصوص مخصصة تعبر عن مشاعرك.',
         images: ['Products/Product_1/1.png', 'Products/Product_1/2.png', 'Products/Product_1/3.png', 'Products/Product_1/4.png'] 
     },
     { 
-        id: 2, name: 'باقة التصميم الثانية', price: 50, oldPrice: 75, 
+        id: 2, name: 'باقة التصميم الثانية', price: 35, oldPrice: 75, 
         desc: 'تصميم تفاعلي مميز يحتوي على صفحات متعددة تشمل (رسالة خاصة، ألبوم ذكريات، وباقة ورود). اختيار مثالي لإبهار من تحب.',
         images: ['Products/Product_2/1.png', 'Products/Product_2/2.png', 'Products/Product_2/3.png', 'Products/Product_2/4.png'] 
     },
     { 
-        id: 3, name: 'باقة التصميم الثالثة', price: 50, oldPrice: 75, 
+        id: 3, name: 'باقة التصميم الثالثة', price: 35, oldPrice: 75, 
         desc: 'طابع كلاسيكي بألوان هادئة ومتناسقة. يتيح لك عرض أجمل اللحظات بطريقة عصرية ومرتبة.',
         images: ['Products/Product_3/1.png', 'Products/Product_3/2.png', 'Products/Product_3/3.png', 'Products/Product_3/4.png'] 
     },
     { 
-        id: 4, name: 'باقة التصميم الرابعة', price: 50, oldPrice: 75, 
+        id: 4, name: 'باقة التصميم الرابعة', price: 35, oldPrice: 75, 
         desc: 'باقة استثنائية تتميز بطابع احتفالي (أعياد الميلاد، التخرج). تتضمن مؤثرات بصرية جذابة تضفي البهجة.',
         images: ['Products/Product_4/1.png', 'Products/Product_4/2.png', 'Products/Product_4/3.png', 'Products/Product_4/4.png'] 
     },
